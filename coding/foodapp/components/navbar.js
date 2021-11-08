@@ -10,9 +10,9 @@ function navbar()
   <div id="sequence">
   
   
-    <h3><a href="">login</a></h3>
-    <h3><a href="">Sign up</a></h3>
-    <h3><a href="">food recipes</a></h3>
+    <h3><a href="login.html">login</a></h3>
+    <h3><a href="login.html">Sign up</a></h3>
+    <h3><a href="menu.html">food recipes</a></h3>
   
  </div>`
 }

@@ -17,3 +17,23 @@
     padding-right: 10px;
 
 }
+button {
+    height:60px;
+ border:none;
+ outline:none;
+ margin-top:5%;
+    
+    
+}
+#btn{
+    margin-top:10% !important;
+}
+#signup-form,#login-form{
+    width:20px;
+}
+input{
+    margin-top: 5px;
+}
+#forms{
+    display: flex;
+}
