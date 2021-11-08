@@ -1,0 +1,19 @@
+#nav{
+    display:flex; 
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#sequence{
+    display :flex;
+    /* padding-left: 2%;
+    padding-right: 2%; */
+
+    justify-content: space-between;
+
+}
+#sequence h3{
+    padding-left: 30px;
+    padding-right: 10px;
+
+}

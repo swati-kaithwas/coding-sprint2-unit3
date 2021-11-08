@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
     <div id="nav"></div>
@@ -19,7 +20,7 @@
     let navbar_div=document.getElementById("nav");
  navbar_div.innerHTML=navbar();
     
-    let response=getData(`https://www.themealdb.com/api/json/v1/1/random.php`)
+    let response=getData(`https://www.themealdb.com/api/json/v1/1/random.php`);
     response
     .then((res) =>{
 console.log("res:",res);
@@ -30,5 +31,5 @@ append(res,cont,count2);
     .catch((err) =>{
         console.log("err:",err);
     });
-    
+
 </script>
