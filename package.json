@@ -1,0 +1,24 @@
+{
+  "name": "coding-sprint2-unit3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:tailwind":"tailwindcss build coding3/style1.css -o coding/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swati-kaithwas/coding-sprint2-unit3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swati-kaithwas/coding-sprint2-unit3/issues"
+  },
+  "homepage": "https://github.com/swati-kaithwas/coding-sprint2-unit3#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "tailwindcss": "^2.2.19"
+  }
+}
